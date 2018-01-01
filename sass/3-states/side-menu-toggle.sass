@@ -1,0 +1,21 @@
+.side-menu_toggle_active
+	+transition(all 1s ease-in-out)
+	+supersm
+		left: 0
+		top: 0
+		
+	+sm
+		left: 0
+		top: 0
+
+.hamburger-btn_closed
+	span
+		height: 0!important
+		&:after
+			transform: rotate(135deg)
+			top: 50%!important
+			+transition(transform 0.3s ease-in-out)
+		&:before
+			transform: rotate(45deg)
+			top: -50%!important
+			+transition(transform 0.3s ease-in-out)

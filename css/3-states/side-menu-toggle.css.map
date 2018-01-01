@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,wBAAwB;EACvB,IAAI,EAAE,CAAC",
+"sources": ["../../sass/3-states/side-menu-toggle.sass"],
+"names": [],
+"file": "side-menu-toggle.css"
+}

@@ -1,0 +1,42 @@
+#statistics
+	margin-top: 4em
+	display: inline-block
+	background: $darkgray
+	&:before
+		content: ''
+		position: absolute
+		width: 300%
+		left: -10%
+		height: 20em
+		transform: rotate(5deg)
+		background: $darkgray
+		z-index: -1
+	+col12
+	.statistics__item
+		margin: 5em 0
+		text-align: center
+		+supersm
+			width: 100%
+		+md
+			+col4
+			float: left
+		h1
+			color: $gold
+			text-transform: uppercase
+			font-weight: 900
+			padding-top: 0.5em
+			font-size: 2em
+		h2
+			color: $gold
+			text-transform: uppercase
+			font-weight: 400
+			padding: 0.5em
+		.statistics__item__img
+			position: relative
+			display: block
+			width: 10em
+			height: 10em
+			border-radius: 50%
+			background: center no-repeat
+			//border: 0.5em solid $shadywhite
+			+center-horizontal

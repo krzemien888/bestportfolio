@@ -1,0 +1,122 @@
+.side-menu, .side-menu_toggle
+	position: fixed
+	left: 0
+	top: 0
+	background-color: white
+	display: block
+	z-index: 999
+
+.side-menu_toggle
+	overflow: hidden
+	height: 100%
+	z-index: 999
+	left: -100%
+	+transition(all 1s ease-in-out)
+	+supersm
+		+col12
+	+sm
+		+col12
+	ul
+		position: relative
+		display: block
+		+center-vertical
+		text-align: center
+		+supersm
+			margin-left: 5em
+			li
+				padding: 1.4em
+				font-weight: 700
+				text-transform: uppercase
+				font-size: 2em
+				&:hover
+					color: $gold
+		+sm
+			margin-left: 5em
+			li
+				padding: 1.4em
+				font-weight: 700
+				text-transform: uppercase
+				font-size: 2em
+				&:hover
+					color: $gold
+		+md
+			position: absolute
+			+center
+			font-size: 2em
+
+.side-menu
+	+supersm
+		margin: 1em
+		width: 4em
+		height: 4em
+	+sm
+		margin: 1em
+		width: 5em
+		height: 5em
+	+md
+		margin: 0
+		bottom: 0
+		height: 100%
+		width: $side-menu-w
+	+lg
+		bottom: 0
+		height: 100%
+		width: $side-menu-w
+	.hamburger-btn
+		position: absolute
+		display: inline-block
+		margin: 0
+		width: $btn-w
+		margin: 0
+		z-index: 999
+		background: transparent
+		+supersm
+			+center
+		+sm
+			+center
+		+md
+			top: $btn-top
+			+center-horizontal
+		+lg
+			top: $btn-top
+			+center-horizontal
+		span
+			position: relative
+			display: inline-block
+			margin-top: $bar-o
+			margin-bottom: $bar-o
+			width: $btn-w * 0.6
+			&, &:after, &:before
+				background-color: $darkgray
+				height: $bar-h
+				border-radius: 5px
+			&:after, &:before
+				content: ''
+				width: $btn-w
+				left: 0
+				position: absolute
+			&:after
+				top: $bar-o
+			&:before
+				top: -$bar-o
+	.side-menu__footer
+		+supersm
+			display: none
+		+sm
+			display: none
+		+md
+			position: absolute
+			width: 100%
+			height: 50%
+			left: 0
+			bottom: 0
+			.side-menu__footer__copyright
+				position: relative
+				font-weight: 700
+				text-transform: uppercase
+				transform: rotate(-90deg)
+				top: 50%
+				left: -100%
+				width: 300%
+		+lg
+			display: block

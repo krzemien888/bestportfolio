@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAU;EACT,QAAQ,EAAE,KAAK;EACf,IAAI,EAAE,CAAC;EACP,GAAG,EAAE,CAAC;EACN,MAAM,EAAE,CAAC;EACT,gBAAgB,EAAE,KAAK;EACvB,OAAO,EAAE,KAAK",
+"sources": ["../../sass/2-modules/side-menu.sass"],
+"names": [],
+"file": "side-menu.css"
+}

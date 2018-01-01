@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,WAAW;EACV,OAAO,EAAE,YAAY;EACrB,6BAAiB;IAChB,KAAK,EAAE,IAAI;IACX,UAAU,EAAE,MAAM;IAClB,oDAAsB;MACrB,QAAQ,EAAE,QAAQ;MAClB,OAAO,EAAE,KAAK;MACd,KAAK,EAAE,IAAI;MACX,MAAM,EAAE,IAAI;MACZ,aAAa,EAAE,GAAG;MAClB,UAAU,EAAE,gBAAgB",
+"sources": ["../../sass/2-modules/statistics.sass"],
+"names": [],
+"file": "statistics.css"
+}
