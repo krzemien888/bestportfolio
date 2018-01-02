@@ -1,0 +1,28 @@
+#few-facts
+	.few-facts__item
+		height: 500px
+		h1
+			display: block
+			position: relative
+			text-align: left
+			font-family: 'Lora', serif
+			font-size: 32px
+			&:before
+				content: ''
+				position: absolute
+				height: 2px
+				width: 120px
+				bottom: -10px
+				background: $darkgray
+		p
+			position: relative
+			margin: 20px 0
+			font-size: 18px
+		.few-facts__item_text
+			padding: 80px
+			background: $gold
+		.few-facts__item_img
+			background: center no-repeat
+			background-size: cover
+			padding: 80px
+			color: white

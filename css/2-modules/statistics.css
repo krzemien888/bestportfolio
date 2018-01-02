@@ -1,22 +1,39 @@
 /*
-Error: Undefined variable: "$shadywhite".
-        on line 4 of sass/2-modules/statistics.sass
+Error: Undefined mixin 'supersm'.
+        on line 17 of sass/2-modules/statistics.sass, in `supersm'
+        from line 17 of sass/2-modules/statistics.sass
 
-1: #statistics
-2: 	margin-top: 4em
-3: 	display: inline-block
-4: 	background: $shadywhite
-5: 	width: 100%
-6: 	.statistics__item
-7: 		margin: 5em 0
-8: 		text-align: center
-9: 		+supersm
+12: 		width: 100%
+13: 		background: rgba(0, 0, 0, 0.8)
+14: 	.statistics__item
+15: 		margin: 5em 0
+16: 		text-align: center
+17: 		+supersm
+18: 			width: 100%
+19: 		+md
+20: 			float: left
+21: 		h1
+22: 			font-family: 'Lora', serif
 
 Backtrace:
-sass/2-modules/statistics.sass:4
-D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/script/tree/variable.rb:49:in `_perform'
-D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/script/tree/node.rb:50:in `perform'
-D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+sass/2-modules/statistics.sass:17:in `supersm'
+sass/2-modules/statistics.sass:17
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:98:in `block in with_mixin'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:98:in `with_mixin'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `map'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
 D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
 D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
@@ -67,4 +84,4 @@ D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-list
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$shadywhite\".\A         on line 4 of sass/2-modules/statistics.sass\A \A 1: #statistics\A 2: 	margin-top: 4em\A 3: 	display: inline-block\A 4: 	background: $shadywhite\A 5: 	width: 100%\A 6: 	.statistics__item\A 7: 		margin: 5em 0\A 8: 		text-align: center\A 9: 		+supersm"; }
+  content: "Error: Undefined mixin 'supersm'.\A         on line 17 of sass/2-modules/statistics.sass, in `supersm'\A         from line 17 of sass/2-modules/statistics.sass\A \A 12: 		width: 100%\A 13: 		background: rgba(0, 0, 0, 0.8)\A 14: 	.statistics__item\A 15: 		margin: 5em 0\A 16: 		text-align: center\A 17: 		+supersm\A 18: 			width: 100%\A 19: 		+md\A 20: 			float: left\A 21: 		h1\A 22: 			font-family: 'Lora', serif"; }

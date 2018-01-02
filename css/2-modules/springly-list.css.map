@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AACC,2BAAgB;EACf,MAAM,EAAE,KAAK;EAEb,gDAAoB;IACnB,UAAU,EAAE,gBAAgB;IAC5B,eAAe,EAAE,KAAK",
+"sources": ["../../sass/2-modules/springly-list.sass"],
 "names": [],
 "file": "springly-list.css"
 }

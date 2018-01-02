@@ -13,7 +13,7 @@ Error: Undefined mixin 'center-horizontal'.
 15: 			text-align: center
 16: 			font-family: "Lora", serif
 17: 			font-size: 48px
-18: 			bottom: 100px
+18: 			font-weight: 400
 
 Backtrace:
 sass/2-modules/about-us.sass:13:in `center-horizontal'
@@ -95,4 +95,4 @@ D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-list
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'center-horizontal'.\A         on line 13 of sass/2-modules/about-us.sass, in `center-horizontal'\A         from line 13 of sass/2-modules/about-us.sass\A \A 8: 			background-size: cover\A 9: 		h1\A 10: 			display: block\A 11: 			padding: 1.2em\A 12: 			position: relative\A 13: 			+center-horizontal\A 14: 			background: $shadywhite\A 15: 			text-align: center\A 16: 			font-family: \"Lora\", serif\A 17: 			font-size: 48px\A 18: 			bottom: 100px"; }
+  content: "Error: Undefined mixin 'center-horizontal'.\A         on line 13 of sass/2-modules/about-us.sass, in `center-horizontal'\A         from line 13 of sass/2-modules/about-us.sass\A \A 8: 			background-size: cover\A 9: 		h1\A 10: 			display: block\A 11: 			padding: 1.2em\A 12: 			position: relative\A 13: 			+center-horizontal\A 14: 			background: $shadywhite\A 15: 			text-align: center\A 16: 			font-family: \"Lora\", serif\A 17: 			font-size: 48px\A 18: 			font-weight: 400"; }

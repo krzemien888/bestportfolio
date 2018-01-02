@@ -17,6 +17,16 @@
 		padding-top: $side-menu-w * 2
 		background: url('../img/best-back.jpg') no-repeat fixed center
 		background-size: cover
+		&:before
+			top: 0
+			left: 0
+			content: ''
+			display: block
+			position: absolute
+			height: 100%
+			width: 100%
+			background: rgba(0, 0, 0, 0.0)
+			z-index: 0
 		+supersm
 			position: absolute
 			height: 100
@@ -44,7 +54,6 @@
 				text-align: justify
 				font-size: 1.5em
 				color: white
-
 		.introduction__logo
 			position: relative
 			a
@@ -92,17 +101,16 @@
 
 	.introduction__scroll-down
 		position: absolute
-
 		bottom: 5em
 		left: 50%
 		text-align: center
 		transform: rotate(180deg) translate(50%, 0)
-
 		+supersm
 			margin-bottom: 2em
 		+md
 			margin-bottom: 8em
 		a
+			position: relative
 			width: 2em
 			height: 2em
 			border-radius: 50%
@@ -119,5 +127,7 @@
 					transform: translateY(0.8em)
 				60%
 					transform: translateY(0.3em)
-			// transition: bounce 2s infinite
 			animation: bounce 2s infinite
+			i
+				position: absolute
+				+center

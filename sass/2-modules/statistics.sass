@@ -1,8 +1,16 @@
 #statistics
 	margin-top: 4em
 	display: inline-block
-	background: $shadywhite
+	background: url('../img/best-back-2.jpg') no-repeat center
 	width: 100%
+	position: relative
+	&:before
+		content: ''
+		display: block
+		position: absolute
+		height: 100%
+		width: 100%
+		background: rgba(0, 0, 0, 0.8)
 	.statistics__item
 		margin: 5em 0
 		text-align: center
@@ -11,21 +19,28 @@
 		+md
 			float: left
 		h1
-			color: $darkgray
+			font-family: 'Lora', serif
+			color: $shadywhite
 			text-transform: uppercase
-			font-weight: 900
-			padding-top: 0.5em
-			font-size: 2em
-		h2
-			color: $darkgray
-
 			font-weight: 400
-			padding: 0.5em
+			padding-top: 0.1em
+			font-size: 24px
+		h2
+			font-family: 'Lora', serif
+			text-transform: uppercase
+			color: $shadywhite
+			font-weight: 400
+			padding: 0.1em
+			font-size: 24px
+		p
+			color: $shadywhite
 		.statistics__item__img
 			position: relative
 			display: block
 			width: 10em
 			height: 10em
 			background: center no-repeat
+			background-size: cover
 			//border: 0.5em solid $shadywhite
 			+center-horizontal
+.statistics__background
