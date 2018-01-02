@@ -3,13 +3,13 @@ Error: Undefined variable: "$darkgray".
         on line 3 of sass/2-modules/footer.sass
 
 1: #main-footer
-2: 	padding: 80px 20px
+2: 	padding: 80px
 3: 	background: $darkgray
 4: 
 5: .main-footer__contact-info
-6: 	+col4
-7: 	color: white
-8: 
+6: 	display: block
+7: 	position: relative
+8: 	+col4
 
 Backtrace:
 sass/2-modules/footer.sass:3
@@ -66,4 +66,4 @@ D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-list
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$darkgray\".\A         on line 3 of sass/2-modules/footer.sass\A \A 1: #main-footer\A 2: 	padding: 80px 20px\A 3: 	background: $darkgray\A 4: \A 5: .main-footer__contact-info\A 6: 	+col4\A 7: 	color: white\A 8: "; }
+  content: "Error: Undefined variable: \"$darkgray\".\A         on line 3 of sass/2-modules/footer.sass\A \A 1: #main-footer\A 2: 	padding: 80px\A 3: 	background: $darkgray\A 4: \A 5: .main-footer__contact-info\A 6: 	display: block\A 7: 	position: relative\A 8: 	+col4"; }

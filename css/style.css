@@ -329,20 +329,18 @@ ul, ol {
     min-height: 100vh;
     padding: 18%;
     padding-bottom: 0;
-    padding-top: 12%; }
+    padding-top: 12%;
+    background: url("../img/best-back.jpg") no-repeat fixed center;
+    background-size: cover; }
     @media (min-width: 320px) {
       #introduction .introduction__welcome {
         width: 100%;
         position: absolute;
-        background: url("../img/best-back.jpg") no-repeat fixed center;
-        background-size: cover;
         height: 100; } }
     @media (min-width: 768px) {
       #introduction .introduction__welcome {
         width: 100%;
         position: absolute;
-        background: url("../img/best-back.jpg") no-repeat fixed center;
-        background-size: cover;
         height: 100%; } }
     @media (min-width: 992px) {
       #introduction .introduction__welcome {
@@ -574,18 +572,27 @@ ul, ol {
         font-size: 3em; } }
 
 #main-footer {
-  padding: 80px 20px;
+  padding: 80px;
   background: #0d1113; }
 
 .main-footer__contact-info {
+  display: block;
+  position: relative;
   width: 33.33333333%;
-  color: white; }
+  color: white;
+  border-right: 0.1em solid #fdfdfd; }
+  .main-footer__contact-info li {
+    padding: 20px 20px; }
+  .main-footer__contact-info h1, .main-footer__contact-info h2 {
+    font-family: "Lora", serif;
+    font-size: 24px;
+    font-weight: 400; }
+  .main-footer__contact-info p {
+    font-size: 12px;
+    color: lightgray; }
 
-.main-footer__contact-info {
-  width: 50%; }
-
-.main-footer__contact-info {
-  width: 16.66666667%; }
+.main-footer__contact-us {
+  width: 41.66666667%; }
 
 .side-menu_toggle_active {
   background: #0d1113;

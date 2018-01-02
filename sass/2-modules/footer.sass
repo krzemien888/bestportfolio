@@ -1,13 +1,22 @@
 #main-footer
-	padding: 80px 20px
+	padding: 80px
 	background: $darkgray
 
 .main-footer__contact-info
+	display: block
+	position: relative
 	+col4
 	color: white
+	border-right: 0.1em solid $shadywhite
+	li
+		padding: 20px 20px
+	h1, h2
+		font-family: 'Lora', serif
+		font-size: 24px
+		font-weight: 400
+	p
+		font-size: 12px
+		color: lightgray
 
-.main-footer__contact-info
-	+col6
-
-.main-footer__contact-info
-	+col2
+.main-footer__contact-us
+	+col5
