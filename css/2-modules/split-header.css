@@ -1,6 +1,6 @@
 /*
-Error: Undefined mixin 'col12'.
-        on line 6 of sass/2-modules/split-header.sass, in `col12'
+Error: Undefined mixin 'supersm'.
+        on line 6 of sass/2-modules/split-header.sass, in `supersm'
         from line 6 of sass/2-modules/split-header.sass
 
 1: .split-header
@@ -8,15 +8,15 @@ Error: Undefined mixin 'col12'.
 3: 	text-align: center
 4: 	display: block
 5: 	z-index: 20
-6: 	+col12
-7: 	+supersm
-8: 		height: 15em
-9: 	+md
-10: 		height: 20em
-11: 	h1
+6: 	+supersm
+7: 		height: 15em
+8: 	+md
+9: 		height: 20em
+10: 	h1
+11: 		font-family: 'Lora', serif
 
 Backtrace:
-sass/2-modules/split-header.sass:6:in `col12'
+sass/2-modules/split-header.sass:6:in `supersm'
 sass/2-modules/split-header.sass:6
 D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:98:in `block in with_mixin'
@@ -73,4 +73,4 @@ D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-list
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'col12'.\A         on line 6 of sass/2-modules/split-header.sass, in `col12'\A         from line 6 of sass/2-modules/split-header.sass\A \A 1: .split-header\A 2: 	position: relative\A 3: 	text-align: center\A 4: 	display: block\A 5: 	z-index: 20\A 6: 	+col12\A 7: 	+supersm\A 8: 		height: 15em\A 9: 	+md\A 10: 		height: 20em\A 11: 	h1"; }
+  content: "Error: Undefined mixin 'supersm'.\A         on line 6 of sass/2-modules/split-header.sass, in `supersm'\A         from line 6 of sass/2-modules/split-header.sass\A \A 1: .split-header\A 2: 	position: relative\A 3: 	text-align: center\A 4: 	display: block\A 5: 	z-index: 20\A 6: 	+supersm\A 7: 		height: 15em\A 8: 	+md\A 9: 		height: 20em\A 10: 	h1\A 11: 		font-family: 'Lora', serif"; }

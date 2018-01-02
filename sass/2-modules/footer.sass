@@ -1,22 +1,70 @@
 #main-footer
-	padding: 80px
+	padding: 60px 0
 	background: $darkgray
-
-.main-footer__contact-info
-	display: block
-	position: relative
-	+col4
 	color: white
-	border-right: 0.1em solid $shadywhite
-	li
-		padding: 20px 20px
 	h1, h2
 		font-family: 'Lora', serif
-		font-size: 24px
+		font-size: 16px
 		font-weight: 400
+	h1
+		font-size: 2em
 	p
 		font-size: 12px
 		color: lightgray
 
+.main-footer__contact-info
+	padding: 10px 0
+	display: block
+	position: relative
+	li
+		padding: 20px 20px
+
+.main-footer__address
+	border-left: 0.1em solid $gray
+
+
 .main-footer__contact-us
-	+col5
+	border-left: 0.1em solid $gray
+	.form-container
+		padding: 30px
+	.form-group
+		position: relative
+		padding: 10px 0
+		.form-control
+			background: transparent
+			position: relative
+			border: 0
+			border-radius: 0
+			border-bottom: 0.01em solid #a9afb3
+			box-shadow: none
+			padding: 4px 0
+			font-size: 1.3em
+			display: block
+			height: 2em
+		label
+			font-family: 'Lora', serif
+			color: $gold
+			position: absolute
+			font-weight: 400
+			pointer-events: none
+			left: 2px
+			transform: translate3d(0, 0px, 0)
+			font-size: 1.3em
+			transition: all 0.2s ease-in-out
+		input
+			&:focus
+				background: transparent
+			&[data-empty="false"] + label,
+			&:valid + label,
+			&:focus + label
+				transform: translate3d(0, -15px, 0)
+				font-size: 14px
+				font-weight: 700
+				color: $gold
+				transition: all 0.2s ease-in-out
+
+.main-footer__copyright
+	position: relative
+	text-align: center
+	color: gray
+	font-family: 'Lora', serif

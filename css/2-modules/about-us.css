@@ -1,23 +1,23 @@
 /*
-Error: Undefined mixin 'col6'.
-        on line 10 of sass/2-modules/about-us.sass, in `col6'
-        from line 10 of sass/2-modules/about-us.sass
+Error: Undefined mixin 'center-horizontal'.
+        on line 13 of sass/2-modules/about-us.sass, in `center-horizontal'
+        from line 13 of sass/2-modules/about-us.sass
 
-5: 			height: 300px
-6: 			width: 100%
-7: 			background: center no-repeat
 8: 			background-size: cover
 9: 		h1
-10: 			+col6
-11: 			display: block
-12: 			padding: 1.2em
-13: 			position: relative
-14: 			+center-horizontal
-15: 			background: $shadywhite
+10: 			display: block
+11: 			padding: 1.2em
+12: 			position: relative
+13: 			+center-horizontal
+14: 			background: $shadywhite
+15: 			text-align: center
+16: 			font-family: "Lora", serif
+17: 			font-size: 48px
+18: 			bottom: 100px
 
 Backtrace:
-sass/2-modules/about-us.sass:10:in `col6'
-sass/2-modules/about-us.sass:10
+sass/2-modules/about-us.sass:13:in `center-horizontal'
+sass/2-modules/about-us.sass:13
 D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:98:in `block in with_mixin'
 D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
@@ -95,4 +95,4 @@ D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-list
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'col6'.\A         on line 10 of sass/2-modules/about-us.sass, in `col6'\A         from line 10 of sass/2-modules/about-us.sass\A \A 5: 			height: 300px\A 6: 			width: 100%\A 7: 			background: center no-repeat\A 8: 			background-size: cover\A 9: 		h1\A 10: 			+col6\A 11: 			display: block\A 12: 			padding: 1.2em\A 13: 			position: relative\A 14: 			+center-horizontal\A 15: 			background: $shadywhite"; }
+  content: "Error: Undefined mixin 'center-horizontal'.\A         on line 13 of sass/2-modules/about-us.sass, in `center-horizontal'\A         from line 13 of sass/2-modules/about-us.sass\A \A 8: 			background-size: cover\A 9: 		h1\A 10: 			display: block\A 11: 			padding: 1.2em\A 12: 			position: relative\A 13: 			+center-horizontal\A 14: 			background: $shadywhite\A 15: 			text-align: center\A 16: 			font-family: \"Lora\", serif\A 17: 			font-size: 48px\A 18: 			bottom: 100px"; }

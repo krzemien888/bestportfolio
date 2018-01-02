@@ -10,10 +10,10 @@ Error: Undefined mixin 'transition'.
 13: 	left: -100%
 14: 	+transition(all 1s ease-in-out)
 15: 	+supersm
-16: 		+col12
-17: 	+sm
-18: 		+col12
-19: 	ul
+16: 	+sm
+17: 	ul
+18: 		position: relative
+19: 		display: block
 
 Backtrace:
 sass/2-modules/side-menu.sass:14:in `transition'
@@ -73,4 +73,4 @@ D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-list
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'transition'.\A         on line 14 of sass/2-modules/side-menu.sass, in `transition'\A         from line 14 of sass/2-modules/side-menu.sass\A \A 9: .side-menu_toggle\A 10: 	overflow: hidden\A 11: 	height: 100%\A 12: 	z-index: 999\A 13: 	left: -100%\A 14: 	+transition(all 1s ease-in-out)\A 15: 	+supersm\A 16: 		+col12\A 17: 	+sm\A 18: 		+col12\A 19: 	ul"; }
+  content: "Error: Undefined mixin 'transition'.\A         on line 14 of sass/2-modules/side-menu.sass, in `transition'\A         from line 14 of sass/2-modules/side-menu.sass\A \A 9: .side-menu_toggle\A 10: 	overflow: hidden\A 11: 	height: 100%\A 12: 	z-index: 999\A 13: 	left: -100%\A 14: 	+transition(all 1s ease-in-out)\A 15: 	+supersm\A 16: 	+sm\A 17: 	ul\A 18: 		position: relative\A 19: 		display: block"; }

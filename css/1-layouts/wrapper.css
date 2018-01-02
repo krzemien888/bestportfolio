@@ -9,11 +9,11 @@ Error: Undefined mixin 'supersm'.
 4: 	top: 0
 5: 	bottom: 0
 6: 	+supersm
-7: 		+col12
-8: 		left: 0
-9: 	+sm
-10: 		+col12
-11: 		left: 0
+7: 		left: 0
+8: 	+sm
+9: 		left: 0
+10: 	+md
+11: 		width: 100% - $side-menu-w
 
 Backtrace:
 sass/1-layouts/wrapper.sass:6:in `supersm'
@@ -73,4 +73,4 @@ D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-list
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'supersm'.\A         on line 6 of sass/1-layouts/wrapper.sass, in `supersm'\A         from line 6 of sass/1-layouts/wrapper.sass\A \A 1: .wrapper\A 2: 	position: relative\A 3: 	right: 0\A 4: 	top: 0\A 5: 	bottom: 0\A 6: 	+supersm\A 7: 		+col12\A 8: 		left: 0\A 9: 	+sm\A 10: 		+col12\A 11: 		left: 0"; }
+  content: "Error: Undefined mixin 'supersm'.\A         on line 6 of sass/1-layouts/wrapper.sass, in `supersm'\A         from line 6 of sass/1-layouts/wrapper.sass\A \A 1: .wrapper\A 2: 	position: relative\A 3: 	right: 0\A 4: 	top: 0\A 5: 	bottom: 0\A 6: 	+supersm\A 7: 		left: 0\A 8: 	+sm\A 9: 		left: 0\A 10: 	+md\A 11: 		width: 100% - $side-menu-w"; }
