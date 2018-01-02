@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'fluid-type'.
-        on line 24 of sass/0-base/base.sass, in `fluid-type'
-        from line 24 of sass/0-base/base.sass
+        on line 25 of sass/0-base/base.sass, in `fluid-type'
+        from line 25 of sass/0-base/base.sass
 
-19: 	opacity: 1
-20: 	font-size: 16px
-21: 	-webkit-font-smoothing: antialiased
-22: 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px
-23: 	text-shadow: rgba(0,0,0,.01) 0 0 1px
-24: 	+fluid-type($min-vw, $max-vw, $min-font, $max-font)
-25: 
-26: body
-27: 	padding: 0
-28: 	margin: 0
-29: 	background-color: $shadywhite
+20: 	opacity: 1
+21: 	font-size: 16px
+22: 	-webkit-font-smoothing: antialiased
+23: 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px
+24: 	text-shadow: rgba(0,0,0,.01) 0 0 1px
+25: 	+fluid-type($min-vw, $max-vw, $min-font, $max-font)
+26: 
+27: body
+28: 	padding: 0
+29: 	margin: 0
+30: 	background-color: $shadywhite
 
 Backtrace:
-sass/0-base/base.sass:24:in `fluid-type'
-sass/0-base/base.sass:24
+sass/0-base/base.sass:25:in `fluid-type'
+sass/0-base/base.sass:25
 D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:98:in `block in with_mixin'
 D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
@@ -73,4 +73,4 @@ D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-list
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'fluid-type'.\A         on line 24 of sass/0-base/base.sass, in `fluid-type'\A         from line 24 of sass/0-base/base.sass\A \A 19: 	opacity: 1\A 20: 	font-size: 16px\A 21: 	-webkit-font-smoothing: antialiased\A 22: 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px\A 23: 	text-shadow: rgba(0,0,0,.01) 0 0 1px\A 24: 	+fluid-type($min-vw, $max-vw, $min-font, $max-font)\A 25: \A 26: body\A 27: 	padding: 0\A 28: 	margin: 0\A 29: 	background-color: $shadywhite"; }
+  content: "Error: Undefined mixin 'fluid-type'.\A         on line 25 of sass/0-base/base.sass, in `fluid-type'\A         from line 25 of sass/0-base/base.sass\A \A 20: 	opacity: 1\A 21: 	font-size: 16px\A 22: 	-webkit-font-smoothing: antialiased\A 23: 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px\A 24: 	text-shadow: rgba(0,0,0,.01) 0 0 1px\A 25: 	+fluid-type($min-vw, $max-vw, $min-font, $max-font)\A 26: \A 27: body\A 28: 	padding: 0\A 29: 	margin: 0\A 30: 	background-color: $shadywhite"; }

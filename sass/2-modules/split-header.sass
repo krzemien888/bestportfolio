@@ -8,39 +8,19 @@
 		height: 15em
 	+md
 		height: 20em
-	&:before
-		content: ''
-		position: absolute
-		width: 300%
-		left: -50%
-		transform: rotate(3deg) translate(-50%, 0)
-		background: $gold
-		z-index: 0
-		+supersm
-			height: 20em
-		+md
-			height: 25em
 	h1
-		transform: rotate(3deg)
 		+col6
+		font-family: 'Lora', serif
+		text-transform: uppercase
 		margin-left: auto
 		margin-right: auto
 		display: block
 		position: absolute
-		font-weight: 700
+		font-weight: 300
 		color: $darkgray
-		font-size: 2.5em
 		line-height: 2em
 		+center
 		+md
 			font-size: 3em
-		&:before
-			transform: rotate(-10deg) translate(-50%, -50%)
-			top: 50%
-			left: 50%
-			content: ''
-			position: absolute
-			height: 4em
-			width: 4em
-			border: 0.2em solid $shadywhite
-			z-index: -1
+		+lg
+			font-size: 3em

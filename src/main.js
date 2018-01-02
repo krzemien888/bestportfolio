@@ -5,13 +5,12 @@ function getElement(query) {
 function pullOutMenu() {
 	var toggleMenu = getElement(".side-menu_toggle"),
 	menu = getElement(".side-menu"),
-	hamburger = getElement(".hamburger-btn"),
-	body = getElement(".wrapper");
+	hamburger = getElement(".hamburger-btn");
 	hamburger.onclick = function() {
 		toggleMenu.classList.toggle("side-menu_toggle_active");
 		menu.classList.toggle("side-menu_active");
 		hamburger.classList.toggle("hamburger-btn_closed");
-		body.classList.toggle("wrapper-active");
+		document.body.classList.toggle("body-active");
 	};
 }
 

@@ -1,22 +1,50 @@
 /*
-Error: Undefined variable: "$shadywhite".
-        on line 4 of sass/2-modules/statistics.sass
+Error: Undefined mixin 'col6'.
+        on line 10 of sass/2-modules/about-us.sass, in `col6'
+        from line 10 of sass/2-modules/about-us.sass
 
-1: #statistics
-2: 	margin-top: 4em
-3: 	display: inline-block
-4: 	background: $shadywhite
-5: 	width: 100%
-6: 	.statistics__item
-7: 		margin: 5em 0
-8: 		text-align: center
-9: 		+supersm
+5: 			height: 300px
+6: 			width: 100%
+7: 			background: center no-repeat
+8: 			background-size: cover
+9: 		h1
+10: 			+col6
+11: 			display: block
+12: 			padding: 1.2em
+13: 			position: relative
+14: 			+center-horizontal
+15: 			background: $shadywhite
 
 Backtrace:
-sass/2-modules/statistics.sass:4
-D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/script/tree/variable.rb:49:in `_perform'
-D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/script/tree/node.rb:50:in `perform'
-D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+sass/2-modules/about-us.sass:10:in `col6'
+sass/2-modules/about-us.sass:10
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:98:in `block in with_mixin'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:98:in `with_mixin'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `map'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `map'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
 D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
 D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
@@ -67,4 +95,4 @@ D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-list
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$shadywhite\".\A         on line 4 of sass/2-modules/statistics.sass\A \A 1: #statistics\A 2: 	margin-top: 4em\A 3: 	display: inline-block\A 4: 	background: $shadywhite\A 5: 	width: 100%\A 6: 	.statistics__item\A 7: 		margin: 5em 0\A 8: 		text-align: center\A 9: 		+supersm"; }
+  content: "Error: Undefined mixin 'col6'.\A         on line 10 of sass/2-modules/about-us.sass, in `col6'\A         from line 10 of sass/2-modules/about-us.sass\A \A 5: 			height: 300px\A 6: 			width: 100%\A 7: 			background: center no-repeat\A 8: 			background-size: cover\A 9: 		h1\A 10: 			+col6\A 11: 			display: block\A 12: 			padding: 1.2em\A 13: 			position: relative\A 14: 			+center-horizontal\A 15: 			background: $shadywhite"; }

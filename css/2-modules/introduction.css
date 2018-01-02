@@ -8,7 +8,7 @@ Error: Undefined variable: "$darkgray".
 4: 	width: 100%
 5: 	background-color: $darkgray
 6: 	min-height: 100vh
-7: 	overflow: hidden
+7: 	//overflow: hidden
 8: 	height: 100%
 9: 	.introduction__welcone, .introduction__side
 10: 		position: relative
@@ -68,4 +68,4 @@ D:/Programowanie/Ruby23/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-list
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$darkgray\".\A         on line 5 of sass/2-modules/introduction.sass\A \A 1: #introduction\A 2: 	position: relative\A 3: 	display: block\A 4: 	width: 100%\A 5: 	background-color: $darkgray\A 6: 	min-height: 100vh\A 7: 	overflow: hidden\A 8: 	height: 100%\A 9: 	.introduction__welcone, .introduction__side\A 10: 		position: relative"; }
+  content: "Error: Undefined variable: \"$darkgray\".\A         on line 5 of sass/2-modules/introduction.sass\A \A 1: #introduction\A 2: 	position: relative\A 3: 	display: block\A 4: 	width: 100%\A 5: 	background-color: $darkgray\A 6: 	min-height: 100vh\A 7: 	//overflow: hidden\A 8: 	height: 100%\A 9: 	.introduction__welcone, .introduction__side\A 10: 		position: relative"; }

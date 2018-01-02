@@ -20,25 +20,46 @@
 		position: relative
 		display: block
 		+center-vertical
-		text-align: center
+		text-align: left
 		+supersm
 			margin-left: 5em
 			li
-				padding: 1.4em
-				font-weight: 700
+				margin: 1.4em
+				font-weight: 400
 				text-transform: uppercase
 				font-size: 2em
 				&:hover
 					color: $gold
+				a
+					position: relative
+					text-decoration: none
+					color: $gold
+					&:before
+						content: ""
+						position: absolute
+						width: 100%
+						visibility: hidden
+						height: 0.05em
+						background: $gold
+						left: 0
+						bottom: 0
+						-webkit-transform: scaleX(0)
+						transform: scaleX(0)
+						-webkit-transition: all 0.3s ease-in-out 0s
+						transition: all 0.3s ease-in-out 0s
+				&:hover
+					color: $gold
+					a::before
+						visibility: visible
+						-webkit-transform: scaleX(1)
+						transform: scaleX(1)
 		+sm
 			margin-left: 5em
 			li
-				padding: 1.4em
-				font-weight: 700
+				margin: 1.4em
+				font-weight: 400
 				text-transform: uppercase
 				font-size: 2em
-				&:hover
-					color: $gold
 		+md
 			position: absolute
 			+center
@@ -49,19 +70,23 @@
 		margin: 1em
 		width: 4em
 		height: 4em
+		border-radius: 50%
 	+sm
 		margin: 1em
 		width: 5em
 		height: 5em
+		border-radius: 50%
 	+md
 		margin: 0
 		bottom: 0
 		height: 100%
 		width: $side-menu-w
+		border-radius: 0
 	+lg
 		bottom: 0
 		height: 100%
 		width: $side-menu-w
+		border-radius: 0
 	.hamburger-btn
 		position: absolute
 		display: inline-block
@@ -70,6 +95,9 @@
 		margin: 0
 		z-index: 999
 		background: transparent
+		&:hover
+			cursor: pointer
+		+transition(all 0.3s ease-in-out)
 		+supersm
 			+center
 		+sm
@@ -97,8 +125,10 @@
 				position: absolute
 			&:after
 				top: $bar-o
+				+transition(transform 0.1s ease-in-out)
 			&:before
 				top: -$bar-o
+				+transition(transform 0.1s ease-in-out)
 	.side-menu__footer
 		+supersm
 			display: none
@@ -111,6 +141,7 @@
 			left: 0
 			bottom: 0
 			.side-menu__footer__copyright
+				font-family: 'Open Sans', sans-serif
 				position: relative
 				font-weight: 700
 				text-transform: uppercase
@@ -118,5 +149,22 @@
 				top: 50%
 				left: -100%
 				width: 300%
+		+lg
+			display: block
+
+.side-menu__logo
+	position: relative
+	+center
+	img
+		+col10
+		position: absolute
+		left: 50%
+		transform: translate(-50%, 0)
+		+supersm
+			display: none
+		+sm
+			display: none
+		+md
+			display: block
 		+lg
 			display: block

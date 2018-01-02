@@ -4,7 +4,7 @@
 	width: 100%
 	background-color: $darkgray
 	min-height: 100vh
-	overflow: hidden
+	//overflow: hidden
 	height: 100%
 	.introduction__welcone, .introduction__side
 		position: relative
@@ -12,6 +12,9 @@
 		display: block
 	.introduction__welcome
 		min-height: 100vh
+		padding: $side-menu-w * 3
+		padding-bottom: 0
+		padding-top: $side-menu-w * 2
 		+supersm
 			+col12
 			position: absolute
@@ -25,24 +28,64 @@
 			background-size: cover
 			height: 100%
 		+md
-			font-size: 2em
+			font-size: 1.5em
 		p
 			display: block
 			text-align: left
 			color: white
 			font-weight: 300
-			padding: $side-menu-w * 2
 			line-height: 1.4em
+			font-family: 'Lora', serif
 			+supersm
-				margin-top: 3em
 				font-size: 1.8em
 			+sm
-				margin-top: 3em
 				font-size: 1.8em
 			.introduction__welcome_b
 				color: $gold
 				font-weight: 700
+				text-transform: uppercase
+			.introduction__welcome_quote
+				text-align: justify
+				font-size: 1.5em
+				color: white
+
 		.introduction__logo
+			+col12
+			position: relative
+			a
+				img
+					position: relative
+					+center
+					+supersm
+						height: 80px
+					+sm
+						height: 100px
+					+md
+						height: 120px
+					+lg
+						height: 160px
+		.introduction__socials
+			position: relative
+			margin: 0.8em 0
+			padding: 0
+			a
+				position: relative
+				float: left
+				margin-right: 1em
+				background: $shadywhite
+				border-radius: 50%
+				width: 40px
+				height: 40px
+				color: $darkgray
+				i
+					position: absolute
+					+center
+				transition: 120ms all linear
+				&:hover
+					background: $gold
+					color: $shadywhite
+					transition: 120ms all linear
+				&:first-child
 	.introduction__side
 		+supersm
 			display: none
@@ -51,27 +94,25 @@
 		.introduction__side__image
 			background: url('../img/best-back.jpg') no-repeat fixed center
 			background-size: cover
-	.introduction__socials
-		+supersm
-			position: absolute
-		+sm
-			position: absolute
+
 	.introduction__scroll-down
 		position: absolute
-		border: 0.4em solid $shadywhite
-		background: $shadywhite
+
 		bottom: 5em
 		left: 50%
 		text-align: center
 		transform: rotate(180deg) translate(50%, 0)
-		width: 5em
-		height: 5em
-		border-radius: 50%
+
 		+supersm
 			margin-bottom: 2em
 		+md
 			margin-bottom: 8em
 		a
+			width: 2em
+			height: 2em
+			border-radius: 50%
+			border: 0.4em solid $shadywhite
+			background: $shadywhite
 			color: $darkgray
 			position: relative
 			display: block
